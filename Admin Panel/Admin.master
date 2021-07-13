@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link rel="stylesheet" href="../admin-css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../admin-css/ionicons.min.css" />
+    <link rel="stylesheet" href="../admin-css/AdminLTE.min.css" />
+    <link rel="stylesheet" href="../admin-css/skin-blue.min.css" />
+    <link rel="stylesheet" href="../admin-css/online.css" />
+    <link rel="stylesheet" href="../admin-css/4.css" />
+    <link rel="stylesheet" href="../admin-css/26.css" />
+    <link rel="stylesheet" href="../css/gridview.css" />
+
+    <script src="../admin-js/jquery.min.js"></script>
+    <script src="../admin-js/bootstrap.min.js"></script>
+    <script src="../admin-js/adminlte.min.js"></script>
+
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+          <!-- Main Header -->
+
+  <header class="main-header">
+
+    <!-- Logo -->
+    <a href="index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>AD</b>MIN</span>
+      <!-- logo for regular state -->
+      <span class="logo-lg"><b>Administrative</b></span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+          <li class="dropdown notifications-menu">
+            <!-- notification count -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- Inner notifications -->
+                <ul class="menu">
+                  <li><!-- start notification -->
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                  <!-- end notification -->
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+          <!-- Tasks Menu -->
+
+          <!-- User Account Menu -->
+          <li class="dropdown user user-menu">
+            <!-- Menu Toggle Button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <!-- The user image in the navbar-->
+              <img src="../images/loginFace.png" class="user-image" alt="User Image" />
+              <span class="hidden-xs">Admin</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- The user image in the menu -->
+              <li class="user-header">
+                <img src="../images/loginFace.png" class="img-circle" alt="User Image" />
+
+                <p>
+                  Admin - Company Administrative
+                  <small>Member since Jan. 2019</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="../Home.aspx" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+          
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+        <!--main header end-->
+
+  <!-- Left side toggle menu -->
+
+  <aside class="main-sidebar">
+
+    <!-- sidebar menu -->
+    <section class="sidebar">
+
+      <!-- Sidebar user panel-->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="../images/loginFace.png" class="img-circle" alt="User Image" />
+        </div>
+        <div class="pull-left info">
+          <p>Admin</p>
+          <!-- Status -->
+          <a href="#"><i class="fa fa-circle text-success"></i> Welcome</a>
+        </div>
+      </div>
+
+      <!-- search form (Optional) -->
+      <!-- /.search form -->
+
+      <!-- Sidebar Menu Events -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">Events</li>
+        <!-- Optionally, you can add icons to the links -->
+        <li><a href="AddProducts.aspx"><i class="fa fa-link"></i> <span>Add products</span></a></li>
+        <li><a href="ViewProducts.aspx"><i class="fa fa-link"></i> <span>View products</span></a></li>
+        <li><a href="UserAccount.aspx"><i class="fa fa-link"></i> <span>User account</span></a></li>
+		<li><a href="orders.aspx"><i class="fa fa-link"></i> <span>New Order</span></a></li>
+		
+		
+		<li><a href="../Home.aspx"><i class="fa fa-link"></i> <span>Logout</span></a></li>
+		
+
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+        
+      </ul>
+      <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!--left side toggle menu end-->
+
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+          <!-- Main Footer -->
+
+  <footer class="main-footer">
+    
+    <div class="pull-right hidden-xs">
+      Anything you want
+    </div>
+    
+    <strong>Copyright &copy; 2019 <a href="#">Company</a>.</strong> All rights reserved.
+  </footer>
+            </div>
+        <!--footer end-->
+
+    </form>
+</body>
+</html>

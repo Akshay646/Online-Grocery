@@ -1,0 +1,170 @@
+﻿
+   .bgimgmain {
+            margin: 0;
+			background:url('../images/bgimg.jpg') fixed;
+			background-size: cover;
+}
+
+    .b1 {
+    height: 40vh;
+		width: 40%;
+		background-image: url('../images/b1.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+        
+        }
+
+	.b2{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b2.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+	}
+	.b3{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b3.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+
+	}
+	.b4{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b4.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+	}
+	.b5{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b5.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+
+	}
+   .b6{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b6.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+
+	}
+    .b7{
+		height: 40vh;
+		width: 40%;
+		background-image: url('../images/b7.jpg');
+		margin: 30px;
+		border: 3px solid black;
+		background-size: cover;
+		display: table;
+		float: left;
+
+	}
+
+
+    .b1:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+	.b2:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+	.b3:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+	.b4:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+	.b5:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+	.b6:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+    	.b7:hover{
+		transform: scale(0.9);
+		opacity: 0.5;
+		transition: 0.6s;
+		cursor: pointer;
+		}
+
+    	.heading{
+		font-family: cursive;
+		font-size: 40px;
+		color: #1248b7;
+		margin: 0px;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+        .bgimg{
+			margin: 0;
+			background:url('../bg.jpg') fixed;
+			background-size: cover;
+			}
+.headtitle {
+    text-align: center;
+}
+.Homelogo{
+        float:left;
+		height: 10%;
+		width: 10%;
+	}
+.divleft {
+    float:left;
+}
+.divright {
+    float:right;
+    font-family:Franklin Gothic;
+    color:red;
+    font-size:22px;
+}
+.divcenter {
+    
+    float:right;
+}
+.textboxfontcolor {
+color:black;
+}
+
+
+
